@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Document</title>
+</head>
+<body>
+ 
+
+    <!-- //  ROCK PAPER AND SCISSORS ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||-->
+
+    <h1> Rock - Paper - Scissors</h1>
+        
+    <div class="choices">
+        <button onclick="playGame('rock')">👊</button>
+        <button onclick="playGame('paper')">🤚</button>
+        <button onclick="playGame('scissors')">🖖</button>
+    </div> 
+    <br> 
+    <div id="playerdisplay">PLAYER: </div>
+    <div id="computerdisplay">COMPUTER:</div>
+    <div id="resultdisplay">IT IS A TIE!</div>
+
+    <div class="scoreDisplay">Player Score: 
+        <span id="playerscoredisplay">0</span>
+    </div>
+    
+    <div class="scoreDisplay">Computer Score: 
+        <span id="computerscoredisplay">0</span>
+    </div>
+
+
+
+   <script src="./index.js"></script>
+   <!-- we are treating our index file as a module, we can import and export other modules freely -->
+   <!-- <script type="module" src="./index.js"></script> -->
+
+</body>
+</html>   
